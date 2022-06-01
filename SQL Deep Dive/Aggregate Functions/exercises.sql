@@ -50,6 +50,10 @@ from country;
 
 -- Question 3: What is the average population for cities in the netherlands?
 -- Table: city
+select * from city;
+select avg(population)
+from city
+where district='Bahia'
 
 
 
